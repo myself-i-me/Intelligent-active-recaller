@@ -1,0 +1,375 @@
+{
+  "schemaVersion": "1.0",
+  "type": "quiz-bank",
+
+  "bank": {
+    "id": "upsc-prelims-practice-001",
+    "title": "UPSC Prelims Practice Bank",
+    "description": "Sample bank demonstrating every supported question type.",
+    "metadata": {
+      "exam": "UPSC Prelims",
+      "createdAt": "2026-04-28",
+      "tags": ["practice", "mixed-subjects"]
+    }
+  },
+
+  "quizzes": [
+    {
+      "id": "quiz-history-modern-001",
+      "title": "Modern Indian History — Set 1",
+      "description": "Freedom struggle and key personalities.",
+      "metadata": {
+        "subject": "History",
+        "topic": "Modern Indian History",
+        "subtopics": ["Freedom Struggle", "Gandhian Era"],
+        "difficulty": "medium",
+        "tags": ["history", "freedom-struggle"]
+      },
+      "questions": [
+
+        {
+          "id": "q-001",
+          "type": "single-correct",
+          "stem": "Who among the following was the first Indian to become a member of the British Parliament?",
+          "options": [
+            { "id": "A", "text": "Dadabhai Naoroji" },
+            { "id": "B", "text": "Gopal Krishna Gokhale" },
+            { "id": "C", "text": "Surendranath Banerjee" },
+            { "id": "D", "text": "Pherozeshah Mehta" }
+          ],
+          "answer": "A",
+          "explanation": {
+            "summary": "Dadabhai Naoroji was elected to the British House of Commons from Finsbury Central in 1892 on a Liberal Party ticket — the first Indian to do so.",
+            "perOption": {
+              "A": "Correct. Elected in 1892, hence the title 'Grand Old Man of India'.",
+              "B": "Incorrect. Gokhale was a member of the Imperial Legislative Council in India, not the British Parliament.",
+              "C": "Incorrect. Banerjee was a founder of the Indian National Association but never sat in the British Parliament.",
+              "D": "Incorrect. Mehta presided over the INC in 1890 but was not a British MP."
+            }
+          },
+          "metadata": {
+            "subject": "History",
+            "topic": "Modern Indian History",
+            "subtopic": "Moderate Phase of INC",
+            "concepts": ["Dadabhai Naoroji", "British Parliament"],
+            "difficulty": "easy",
+            "source": "UPSC-style",
+            "tags": ["personalities", "factual"]
+          }
+        },
+
+        {
+          "id": "q-002",
+          "type": "multi-statement",
+          "stem": "Consider the following statements regarding the Non-Cooperation Movement (1920–22):",
+          "statements": [
+            { "id": 1, "text": "It was launched after the passage of the Rowlatt Act and the Jallianwala Bagh massacre." },
+            { "id": 2, "text": "It called for the boycott of British goods, schools, and law courts." },
+            { "id": 3, "text": "It was withdrawn by Gandhi after the Chauri Chaura incident." },
+            { "id": 4, "text": "Subhas Chandra Bose led the movement in Bengal as INC President at the time." }
+          ],
+          "question": "Which of the statements given above are correct?",
+          "options": [
+            { "id": "A", "text": "1, 2 and 3 only" },
+            { "id": "B", "text": "1, 2 and 4 only" },
+            { "id": "C", "text": "2, 3 and 4 only" },
+            { "id": "D", "text": "1, 2, 3 and 4" }
+          ],
+          "answer": "A",
+          "correctStatements": [1, 2, 3],
+          "explanation": {
+            "summary": "Statements 1, 2, 3 correctly describe the movement's trigger, programme, and termination. Statement 4 is wrong — Bose was not INC President in 1920–22 (he became President only in 1938 and 1939).",
+            "perStatement": {
+              "1": "Correct. The Rowlatt Act (1919) and Jallianwala Bagh (April 1919) directly catalysed the movement formally launched in August 1920.",
+              "2": "Correct. The constructive programme included boycott of British institutions and goods.",
+              "3": "Correct. Gandhi withdrew the movement in February 1922 after Chauri Chaura.",
+              "4": "Incorrect. Bose became INC President only in 1938. During 1920–22, C. R. Das and others led INC affairs."
+            }
+          },
+          "metadata": {
+            "subject": "History",
+            "topic": "Modern Indian History",
+            "subtopic": "Indian National Movement",
+            "concepts": ["Non-Cooperation Movement", "Chauri Chaura", "Gandhi"],
+            "difficulty": "medium",
+            "source": "UPSC-style",
+            "tags": ["movements", "gandhi-era"]
+          }
+        },
+
+        {
+          "id": "q-003",
+          "type": "match-the-following",
+          "stem": "Match List-I (Personality) with List-II (Newspaper/Journal) and select the correct answer:",
+          "leftList": {
+            "title": "List-I (Personality)",
+            "items": [
+              { "id": "A", "text": "Bal Gangadhar Tilak" },
+              { "id": "B", "text": "Lala Lajpat Rai" },
+              { "id": "C", "text": "Bipin Chandra Pal" },
+              { "id": "D", "text": "Madan Mohan Malaviya" }
+            ]
+          },
+          "rightList": {
+            "title": "List-II (Newspaper/Journal)",
+            "items": [
+              { "id": 1, "text": "The Punjabee" },
+              { "id": 2, "text": "Kesari" },
+              { "id": 3, "text": "The Leader" },
+              { "id": 4, "text": "New India" }
+            ]
+          },
+          "options": [
+            { "id": "A", "text": "A-2, B-1, C-4, D-3" },
+            { "id": "B", "text": "A-2, B-4, C-1, D-3" },
+            { "id": "C", "text": "A-1, B-2, C-3, D-4" },
+            { "id": "D", "text": "A-3, B-1, C-4, D-2" }
+          ],
+          "answer": "A",
+          "correctMatches": { "A": 2, "B": 1, "C": 4, "D": 3 },
+          "explanation": {
+            "summary": "Tilak founded Kesari (Marathi); Lajpat Rai started The Punjabee; Bipin Chandra Pal edited New India; Malaviya founded The Leader (Allahabad, 1909).",
+            "perMatch": {
+              "A": "Tilak — Kesari (Marathi) and Mahratta (English), founded 1881.",
+              "B": "Lajpat Rai — The Punjabee, started 1904.",
+              "C": "Bipin Chandra Pal — New India (Calcutta).",
+              "D": "Malaviya — The Leader, founded at Allahabad in 1909."
+            }
+          },
+          "metadata": {
+            "subject": "History",
+            "topic": "Modern Indian History",
+            "subtopic": "Press and Publications",
+            "concepts": ["Extremists", "Newspapers"],
+            "difficulty": "hard",
+            "source": "UPSC-style",
+            "tags": ["matching", "personalities"]
+          }
+        },
+
+        {
+          "id": "q-004",
+          "type": "assertion-reason",
+          "stem": "Read the Assertion (A) and Reason (R) below and select the correct option.",
+          "assertion": "The Government of India Act, 1935 introduced provincial autonomy.",
+          "reason": "It abolished diarchy at the provincial level and introduced it at the centre.",
+          "options": [
+            { "id": "A", "text": "Both A and R are true and R is the correct explanation of A." },
+            { "id": "B", "text": "Both A and R are true but R is not the correct explanation of A." },
+            { "id": "C", "text": "A is true but R is false." },
+            { "id": "D", "text": "A is false but R is true." }
+          ],
+          "answer": "A",
+          "explanation": {
+            "summary": "Both A and R are factually correct. The 1935 Act ended provincial diarchy (introduced in 1919) and gave provinces autonomy, while introducing diarchy at the centre — making R the precise mechanism by which provincial autonomy was achieved.",
+            "perOption": {
+              "A": "Correct. R is exactly how provincial autonomy was introduced.",
+              "B": "Incorrect. R *is* the explanation, not a separate fact.",
+              "C": "Incorrect. R is true.",
+              "D": "Incorrect. A is true."
+            }
+          },
+          "metadata": {
+            "subject": "History",
+            "topic": "Modern Indian History",
+            "subtopic": "Constitutional Development",
+            "concepts": ["Government of India Act 1935", "Diarchy"],
+            "difficulty": "medium",
+            "source": "UPSC-style",
+            "tags": ["assertion-reason", "constitutional"]
+          }
+        },
+
+        {
+          "id": "q-005",
+          "type": "chronological",
+          "stem": "Arrange the following events of the Indian freedom struggle in chronological order (earliest first):",
+          "events": [
+            { "id": 1, "text": "Partition of Bengal" },
+            { "id": 2, "text": "Surat Split of the Indian National Congress" },
+            { "id": 3, "text": "Lucknow Pact" },
+            { "id": 4, "text": "Rowlatt Act" }
+          ],
+          "options": [
+            { "id": "A", "text": "1 → 2 → 3 → 4" },
+            { "id": "B", "text": "2 → 1 → 4 → 3" },
+            { "id": "C", "text": "1 → 3 → 2 → 4" },
+            { "id": "D", "text": "3 → 1 → 2 → 4" }
+          ],
+          "answer": "A",
+          "correctOrder": [1, 2, 3, 4],
+          "explanation": {
+            "summary": "Partition of Bengal (1905) → Surat Split (1907) → Lucknow Pact (1916) → Rowlatt Act (1919).",
+            "perEvent": {
+              "1": "Partition of Bengal — 1905, by Lord Curzon.",
+              "2": "Surat Split — 1907, between Moderates and Extremists.",
+              "3": "Lucknow Pact — 1916, INC–Muslim League agreement.",
+              "4": "Rowlatt Act — 1919."
+            }
+          },
+          "metadata": {
+            "subject": "History",
+            "topic": "Modern Indian History",
+            "subtopic": "Indian National Movement Timeline",
+            "concepts": ["Chronology"],
+            "difficulty": "medium",
+            "source": "UPSC-style",
+            "tags": ["chronology"]
+          }
+        },
+
+        {
+          "id": "q-006",
+          "type": "statements-count",
+          "stem": "Consider the following statements about the Indus Valley Civilisation:",
+          "statements": [
+            { "id": 1, "text": "The civilisation was largely urban in character." },
+            { "id": 2, "text": "Iron tools were widely used." },
+            { "id": 3, "text": "The Great Bath was found at Mohenjo-daro." },
+            { "id": 4, "text": "The script has been definitively deciphered." }
+          ],
+          "question": "How many of the above statements are correct?",
+          "options": [
+            { "id": "A", "text": "Only one" },
+            { "id": "B", "text": "Only two" },
+            { "id": "C", "text": "Only three" },
+            { "id": "D", "text": "All four" }
+          ],
+          "answer": "B",
+          "correctStatements": [1, 3],
+          "explanation": {
+            "summary": "Statements 1 and 3 are correct. Statement 2 is wrong because the Indus civilisation was a Bronze Age culture — iron came much later. Statement 4 is wrong — the script remains undeciphered.",
+            "perStatement": {
+              "1": "Correct. Planned cities, drainage, granaries — the civilisation is famously urban.",
+              "2": "Incorrect. Bronze, not iron, was the metal of the period.",
+              "3": "Correct. The Great Bath is at Mohenjo-daro.",
+              "4": "Incorrect. The Indus script remains undeciphered."
+            }
+          },
+          "metadata": {
+            "subject": "History",
+            "topic": "Ancient Indian History",
+            "subtopic": "Indus Valley Civilisation",
+            "concepts": ["Urban Planning", "Bronze Age"],
+            "difficulty": "easy",
+            "source": "UPSC-style",
+            "tags": ["ancient-history"]
+          }
+        },
+
+        {
+          "id": "q-007",
+          "type": "pairs-count",
+          "stem": "Consider the following pairs of dynasty and capital:",
+          "pairs": [
+            { "id": 1, "left": "Cholas", "right": "Thanjavur" },
+            { "id": 2, "left": "Pallavas", "right": "Madurai" },
+            { "id": 3, "left": "Rashtrakutas", "right": "Manyakheta" },
+            { "id": 4, "left": "Chalukyas of Badami", "right": "Badami" }
+          ],
+          "question": "How many of the above pairs are correctly matched?",
+          "options": [
+            { "id": "A", "text": "Only one" },
+            { "id": "B", "text": "Only two" },
+            { "id": "C", "text": "Only three" },
+            { "id": "D", "text": "All four" }
+          ],
+          "answer": "C",
+          "correctPairs": [1, 3, 4],
+          "explanation": {
+            "summary": "Pallava capital was Kanchipuram (not Madurai — that was the Pandyas).",
+            "perPair": {
+              "1": "Correct. Cholas — Thanjavur.",
+              "2": "Incorrect. Pallava capital was Kanchipuram; Madurai was the Pandya capital.",
+              "3": "Correct. Rashtrakutas — Manyakheta (modern Malkhed).",
+              "4": "Correct. Chalukyas of Badami — Badami (Vatapi)."
+            }
+          },
+          "metadata": {
+            "subject": "History",
+            "topic": "Ancient Indian History",
+            "subtopic": "South Indian Dynasties",
+            "concepts": ["Dynasties", "Capitals"],
+            "difficulty": "medium",
+            "source": "UPSC-style",
+            "tags": ["matching", "dynasties"]
+          }
+        },
+
+        {
+          "id": "q-008",
+          "type": "single-correct",
+          "stem": "Refer to the table below showing Five-Year Plans and their primary focus:",
+          "table": {
+            "headers": ["Plan", "Period", "Primary Focus"],
+            "rows": [
+              ["First Plan", "1951–56", "Agriculture and irrigation"],
+              ["Second Plan", "1956–61", "Heavy industry (Mahalanobis model)"],
+              ["Third Plan", "1961–66", "Self-reliance, agriculture and industry"],
+              ["Fourth Plan", "1969–74", "Growth with stability and self-reliance"]
+            ]
+          },
+          "question": "Which Five-Year Plan was based on the Mahalanobis model emphasising heavy industry?",
+          "options": [
+            { "id": "A", "text": "First Plan" },
+            { "id": "B", "text": "Second Plan" },
+            { "id": "C", "text": "Third Plan" },
+            { "id": "D", "text": "Fourth Plan" }
+          ],
+          "answer": "B",
+          "explanation": {
+            "summary": "The Second Plan (1956–61), drafted by P. C. Mahalanobis, prioritised heavy industries like steel, machine tools, and power.",
+            "perOption": {
+              "A": "Incorrect. First Plan was Harrod–Domar based, focused on agriculture.",
+              "B": "Correct. Mahalanobis model — heavy industry-led growth.",
+              "C": "Incorrect. Third Plan focused on self-reliance amid wars and droughts.",
+              "D": "Incorrect. Fourth Plan came after the plan holiday (1966–69)."
+            }
+          },
+          "metadata": {
+            "subject": "Economy",
+            "topic": "Indian Economy",
+            "subtopic": "Five-Year Plans",
+            "concepts": ["Mahalanobis Model", "Planning"],
+            "difficulty": "medium",
+            "source": "UPSC-style",
+            "tags": ["tables", "economy"]
+          }
+        },
+
+        {
+          "id": "q-009",
+          "type": "single-correct",
+          "stem": "Identify the river labelled 'X' in the map below and the state it primarily flows through.",
+          "image": "images/sample-river-map.png",
+          "imageAlt": "Outline map of India with one river highlighted and labelled X",
+          "options": [
+            { "id": "A", "text": "Mahanadi — Odisha" },
+            { "id": "B", "text": "Krishna — Andhra Pradesh" },
+            { "id": "C", "text": "Godavari — Maharashtra" },
+            { "id": "D", "text": "Cauvery — Karnataka" }
+          ],
+          "answer": "A",
+          "explanation": {
+            "summary": "The river labelled X originates in Chhattisgarh and flows primarily through Odisha into the Bay of Bengal — the Mahanadi.",
+            "perOption": {
+              "A": "Correct. Mahanadi — Odisha.",
+              "B": "Incorrect. Krishna originates in Mahabaleshwar and flows through MH/KA/TG/AP.",
+              "C": "Incorrect. Godavari originates in Trimbakeshwar (MH) and flows mostly through MH/TG/AP.",
+              "D": "Incorrect. Cauvery flows through Karnataka and Tamil Nadu."
+            }
+          },
+          "metadata": {
+            "subject": "Geography",
+            "topic": "Indian Geography",
+            "subtopic": "Rivers",
+            "concepts": ["Peninsular Rivers"],
+            "difficulty": "medium",
+            "source": "UPSC-style",
+            "tags": ["map-based", "rivers"]
+          }
+        }
+      ]
+    }
+  ]
+}
